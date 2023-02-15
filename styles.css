@@ -1,15 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Fraunces:opsz@9..144&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-color: firebrick;
+    display: grid;
+    place-items: center;
+    font-family: Epilogue;
+    background-color: #FAF8F6;
+    position: relative;
 }
-label{
+.container{
+    margin: 16px;
+    max-width: 400px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1108.85px;
+    height: 56px;
+    left: 166.15px;
+    top: 50px;
+}
+button{
+    border: 1px solid black;
+    width: 219px;
+    height: 56px;
+    filter:  drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button1{
+    font-family: Epilogue;
+    font-weight: 700;
+    font-style: normal;
     font-size: 16px;
-    font-weight: bold;
-    color: darkblue;
+    color: #172339;
+    letter-spacing: -0.16px;
+    line-height: 32px;
+    background-color: white;
+    border: 1px solid #172339;
 }
-input{
-    padding: 2px 1px;
-    margin-left: 2px;
-    background-color: lightgray;
-    left: 12px;
-    display: inline-block;
+.secondcontainer{
+    width: 1110px;
+    height: 600px;
+    left: 141px;
+    top: 187px;
+    position: absolute;
+    display: flex;
+}
+.textbox{
+    width: 635px;
+    height: 405px;
+    margin-top: 60.32px;
+    left: 141px;
+    top: 60.32px;
+    margin-right: 192px;
+    position: absolute;
+    z-index: 1;
+}
+span{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: #172339;
+}
+strong{
+    font-family: Epilogue;
+    font-weight:700;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: #172339;
+}
+.textbody{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    top: 511px;
+    left: 138px;
+    width: 350px;
+    height: 96px;
+    color: #49566D;
+    margin-top: 40px;
+}
+.button2{
+    background-color: #172339;
+    width:256px;
+    height: 61px;
+    border: 1px solid ;
+    border-radius: 6px;
+    top: 659px;
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    margin-top: 52px;
+}
+.concaveline{
+    left: 317px;
+    top: 45.68px;
+    position: absolute;
+    color: #172339;
+    z-index: 1;
+}
+.imghero{
+    width: 350px;
+    height: 600px;
+    position:absolute;
+    top: 173px;
+    left: 615px;
+    right: 475px;
+    z-index: 0;
+}
+.indicators{
+    width: 195px;
+    height: 375px;
+    left: 1056px;
+    top: 333px;
+    position: absolute;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.figure{
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #172339;
+}
+.figure-text{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #49566D;
+
+}
+.thirdcontainer{
+    width: 1109px;
+    height: 589.56px;
+    left: 188px;
+    top: 957px;
+    position: absolute;
+}
+.messagebox{
+    width: 1109px;
+    height: 545px;
+    background-color: #172339;
+    position: absolute;
+    top: 44.56px;
+    border-radius: 15px;
+}
+.image-jeremy{
+    position: absolute;
+    width: 359.89px;
+    height: 589.56px;
+    left: 121.49px;
+    top: -44.56px;
+    margin-top: 0px;
+}
+.convexline{
+    position:absolute;
+    width: 64.05px;
+    height: 52px;
+    left: 517.2px;
+    top: 161.15px;
+}
+.message{
+    position:absolute;
+    width: 350px;
+    height: 369px;
+    left: 634px;
+    top: 88px;
+}
+
+.top-comment{
+    position: absolute;
+    height: 56px;
+}
+.top-comment1, .top-comment2{
+    color: #FAF8F6;
+    font-family: epilogue;
+    font-style: normal;
+}
+.top-comment1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+.top-comment2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+.middle-comment{
+    color: #F3EDE7;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    top: 120.44px;
+    width: 350px;
+    height: 175px;
+}
+h5{
+    text-transform: uppercase;
+    color: #FAF8F6;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    position: absolute;
+    top: 350.44px;
+}
+.jobtitle{
+    position: absolute;
+    color: #F3EDE7;
+    top: 390.44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    width: 190px;
+    height: 26px;
+
+}
+footer{
+    width: 1109px;
+    height:32px;
+    position: absolute;
+    left: 167px;
+    top: 1612px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 116px;
+    height: 20px;
+    left: 993px;
+    position: absolute;
+    justify-content: space-between;
+}
+#copyright{
+    position: absolute;
+    width: 125px;
+    height: 32px;
+    color: #49566D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0-08833333px;
+    left: 491px;
+}
+@media screen and (min-width: 768px){
+    .container{
+        min-width: 786px; width:689px; height:482px; left: 39px;
+        top: 176px; display: flex;}
+        }
+        .secondcontainer{ max-width:600px; height: 865px; position:absolute;}
+        .image-jeremy{ display:block;}
+        .message{justify-content: center; place-content: center; display:block}
+    
+    }
+
+}
+
+@media only screen and (min-width: 320px){
+    .container{ min-width: 320px;}
+    .indicators{ display: block; flex-direction: column;}
+    .imghero{
+        display:block; place-items: center; 
+    }
+    .thirdcontainer{ display: block; align-items: center; min-width: 320px;}
+    .image-jeremy{ display: block; justify-content: center; place-items: center;}
+    footer{ display: block; justify-content: center; place-items: center; }
 }
